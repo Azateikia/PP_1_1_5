@@ -15,7 +15,6 @@ public class UserServiceImpl implements UserService {
 
     public void dropUsersTable() {
         userDaoHibernate.dropUsersTable();
-
     }
 
     public void saveUser(String name, String lastName, byte age) {
